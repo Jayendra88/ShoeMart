@@ -35,6 +35,7 @@ namespace ShoeMartFrontEnd
 
             LoginView.DataContext = loginViewModel;
             //Log();
+            //
         }
 
         
