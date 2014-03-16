@@ -1,0 +1,18 @@
+﻿<mui:ModernWindow x:Class="ShoeMartFrontEnd.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+        xmlns:login="clr-namespace:ShoeMartFrontEnd"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1">
+                <login:LoginWindow x:Name="LoginView"></login:LoginWindow>
+            </Grid>
+        </Grid>
+    </Grid>
+</mui:ModernWindow>
